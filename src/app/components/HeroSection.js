@@ -24,7 +24,7 @@ const HeroSection = ({title}) => {
               <div>
                 <Link href="/">
                   <Image
-                  className="hero_image"
+                  className="hero_image w-100"
                     src="/home_hero_image.png"
                     width={450}
                     height={280}

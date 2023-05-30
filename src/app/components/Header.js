@@ -1,13 +1,17 @@
 
-// 'use client'
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.css'
+import { useEffect } from 'react';
 // import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 const Header = () => {
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap.min.js')
 
+  }, []);
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
